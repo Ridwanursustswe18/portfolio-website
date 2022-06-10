@@ -1,2 +1,2 @@
 # portfolio-website
-My first portfolio website mae with only html and css
+My first portfolio website made with only html and css
