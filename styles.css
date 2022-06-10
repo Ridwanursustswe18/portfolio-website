@@ -1,0 +1,311 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: white;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    font-family: sans-serif; 
+    margin-right: 80px ;
+    text-align: center;
+    float: right;
+    position:sticky;
+}
+.style-image {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+   margin-left: 80px;
+    height: auto;
+    max-width: 100%;
+    cursor: pointer;
+    width: 238px;
+    aspect-ratio: 238/73;
+  }
+
+.navbar-links ul{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+   
+}
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+   
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+   
+}
+.navbar-links li a.active{
+    color: blue;
+}
+.navbar-links li a:hover{
+   color:   blue;
+}
+.background-img1{
+    
+    background-image: linear-gradient(
+        to left,
+        rgba(200, 200, 255, 0.52),
+        rgba(0, 71, 171,0.9)
+      ),url( "https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/hero-free-img.jpg");
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top :200px; 
+    padding-bottom: 200px;
+    opacity: .9;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    
+}
+.section1-text1{
+    color: white;
+  text-justify: auto;
+  margin-left: 80px;
+  margin-right: 900px;
+  
+}
+.section1-text1 >h1{
+    font-size: 50px;
+}
+.button1{
+    background-color: #f4f6f6;
+    width: auto;
+    font-family: inherit;
+    font-weight: 400;
+   width: 120px;
+   height: 45px;
+   border: none;
+   color:#0274be ;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.button2{
+    background-color:blue ;
+    width: auto;
+    font-family: inherit;
+    font-weight: 400;
+   width: 120px;
+   height: 45px;
+   border: none;
+   color:#f4f6f6;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #0274be;
+}
+.section2-text2{
+    text-align: center;
+   font-size: 20px;
+   font-family:'Montserrat',sans-serif;
+   font-weight: 300;
+}
+.section2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.space{
+    margin-bottom: 50px;
+}
+.section3-text3{
+    text-align: center;
+    border: 0;
+    font-size: 100%;
+    
+    font-weight: 300;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline; 
+}
+.section3-text3 >h3{
+    font-size: 35px;
+    font-weight: 400;
+}
+.section4{
+    color: #f4f6f6;
+    text-align: center;
+   font-family: 'Montserrat',sans-serif;
+}
+.section4>h2{
+    font-size: 25px;
+    font-weight: 500;
+    
+    
+}
+
+.sec3gridcontainer {
+    display: grid;
+    gap: 30px 30px;
+    grid-template-columns: auto auto auto;
+    padding: 100px 150px;
+  }
+  .sec3griditem {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: rgba(0, 71, 171, 0.9);
+    padding: 80px 40px;
+  }
+  .sec3griditem button {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    color: white;
+  }
+  .s3gip1 {
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+  }
+  .s3gip2 {
+    font-size: 15px;
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    margin: 30px 0px;
+  }
+  
+  .sec3griditem2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  
+  .section4 {
+    background-image: linear-gradient(
+        to right,
+        rgba(200, 200, 255, 0.52),
+        rgba(0, 71, 171, 0.9)
+      ),
+      url(https://websitedemos.net/coach-02/wp-content/uploads/sites/171/2018/02/testimonials-free-img.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 0px 150px 0px 0px;
+  }
+  .section4 div {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 30%;
+  }
+  .s4p1 {
+    font-size: 50px;
+    color: white;
+  }
+  .s4p2 {
+    font-size: 18px;
+    color: white;
+  }
+  .s4p3 {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .section5 {
+    background-color: whitesmoke;
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section5 img {
+    width: 400px;
+  }
+  .section5 div div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .section5 div {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .s5p1 {
+    font-size: 50px;
+    margin: 40px 0px;
+  }
+  .s5p2 {
+    margin: 0px;
+  }
+  .s5b {
+    background-color: rgba(0, 71, 171, 0.9);
+    padding: 10px 15px;
+    border-width: 0px;
+    color: white;
+    margin: 40px 0px;
+  }
+  .s5b:hover {
+    background-color: rgba(0, 71, 200, 1);
+  }
+  
+  .f1 {
+    background-color: rgba(0, 71, 171, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .f1 p {
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+  }
+  .f2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+  }
